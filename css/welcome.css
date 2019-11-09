@@ -1,0 +1,129 @@
+.welcome {
+    background-color: #1b1b1b;
+    overflow: hidden;
+}
+
+.welcome__wrap {
+    width: 90%;
+    margin: 0 auto;
+
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 620px) {
+    .welcome__wrap {
+        width: 500px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .welcome__wrap {
+        width: 975px;
+        padding: 0 0 100px;
+    }
+}
+
+.welcome__big-img {
+    float:left;
+    display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+    .welcome__big-img {
+        display: inline-block;
+    }
+}
+
+.welcome__content {
+    float: left;
+    padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .welcome__content {
+        padding-left: 26px;
+    }
+}
+
+.welcome__des {
+    color: #ffffff;
+    font-family: "OpenSans-Regular", serif;
+    font-size: 14px;
+    max-width: 540px;
+    padding: 0 0 30px;
+    line-height: 24px;
+}
+@media only screen and (min-width: 1024px) {
+    .welcome__des {
+        font-size: 16px;
+    }
+}
+
+.welcome__des-list {
+    font-family: "OpenSans-Regular", serif;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0;
+}
+
+@media only screen and (min-width: 1024px) {
+    .welcome__des-list {
+        padding: 0 0 50px;
+        font-size: 16px;
+    }
+}
+
+.welcome__link {
+    font-family: "OpenSans-Bold", serif;
+}
+
+.welcome__des-item {
+    color: #ffffff;
+
+}
+.welcome__des-item:before {
+    display: inline-block;
+    width: 11px;
+    height: 12px;
+    margin-right: 5px;
+    content: '';
+    background-image: url("../img/welcome__arrow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.welcome__img-item {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .welcome__img-item {
+        display: inline-block;
+        min-width: 30%;
+    }
+}
+
+.welcome__small-img {
+    width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+    .welcome__small-img {
+        min-width: 100%;
+    }
+}
+
+.welcome__img-item:last-child {
+    margin-right: 0;
+}
+
+.welcome__img-list {
+    display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+    .welcome__img-list {
+        display: block;
+    }
+}

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans-Italic";
+    src: url("../fonts/OpenSans-Italic.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("../fonts/OpenSans-Light.ttf");
+}
+
+.logo {
+    display: block;
+    width: 165px;
+    height: 40px;
+    background-image: url("../img/logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+@media only screen and (min-width: 1024px) {
+    .logo{
+        width: 413px;
+        height: 100px;
+    }
+}
+
+.section-head {
+    text-transform: uppercase;
+    color: #f8ae4c;
+    font-family: 'OpenSans-Bold', serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.section-head:after,.section-head:before {
+    width: 70px;
+    height: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    content: '';
+    background-color: #f8ae4c;
+}
+
+@media only screen and (min-width: 768px) {
+    .section-head {
+        font-size: 32px;
+    }
+
+    .section-head:after, .section-head:before {
+        width: 18%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .section-head:after,.section-head:before {
+        width: 268px;
+    }
+}
+
+.section-head:after {
+    margin-left: 30px;
+}
+
+.section-head:before {
+    margin-right: 30px;
+}

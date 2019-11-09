@@ -1,0 +1,145 @@
+.edge {
+    background-color: #f8ae4c;
+}
+
+.edge__title {
+    color: #360501;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .edge__title {
+        color: #360501;
+        padding-top: 80px;
+        padding-bottom: 0;
+    }
+}
+
+.edge__title:before,.edge__title:after {
+    background-color: #360501;
+}
+
+@media only screen and (min-width: 1024px) {
+    .edge__title:before,.edge__title:after {
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 1045px) {
+    .edge__title:before,.edge__title:after {
+        width: 268px;
+    }
+}
+
+.edge__list {
+    padding: 20px 0 0;
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1000px) {
+    .edge__list {
+        max-width: 1000px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .edge__list {
+        padding: 80px 0 0;
+        max-width: 1100px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+.edge__item {
+    display: block;
+    max-width: 250px;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 auto;
+    padding-bottom: 35px;
+}
+
+@media only screen and (min-width: 505px) {
+    .edge__item {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .edge__item {
+        padding-bottom: 0;
+        margin:0 115px 80px 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .edge__item:nth-child(3n) {
+        margin-right: 0;
+    }
+}
+
+
+
+.edge__img {
+    display: block;
+    width: 76px;
+    height: 76px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.edge__img--best {
+    background-image: url("../img/adge_best.png");
+}
+
+.edge__img--stars {
+    background-image: url("../img/adge_stars.png");
+}
+
+.edge__img--dialog {
+    background-image: url("../img/adge_dialog.png");
+}
+
+.edge__img--brilliant {
+    background-image: url("../img/adge_brilliant.png");
+}
+
+.edge__img--sale {
+    background-image: url("../img/adge_sale.png");
+}
+
+.edge__img--fly {
+    background-image: url("../img/adge_fly.png");
+}
+
+.edge__item-title {
+    padding-top: 15px;
+    font-family: "OpenSans-Bold", serif;
+    font-size: 14px;
+    color: #360501;
+}
+
+@media only screen and (min-width: 1024px) {
+    .edge__item-title {
+        font-size: 16px;
+    }
+}
+
+.edge__content {
+    padding-top: 20px;
+    font-family: "OpenSans-Regular", serif;
+    font-size: 12px;
+    color: #360501;
+}
+
+@media only screen and (min-width: 1024px) {
+    .edge__content {
+        font-size: 14px;
+    }
+}

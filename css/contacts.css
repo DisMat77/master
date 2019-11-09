@@ -1,0 +1,311 @@
+.contacts {
+    background: url("../img/contacts_bg.png") 0 0 no-repeat;
+    position: relative;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+/*.contacts:after {*/
+/*    content: '';*/
+/*    display: block;*/
+/*    background: linear-gradient(to bottom, #f8ae4c, transparent);*/
+/*    height: 100px;*/
+/*}*/
+
+.contacts__wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.contacts__title {
+    color: #360501;
+    padding: 70px 0 70px;
+    position: relative;
+}
+
+.contacts__title:after,.contacts__title:before {
+    background-color: #360501;
+    width: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+    .contacts__title:after,.contacts__title:before {
+        width: 18%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .contacts__title:after,.contacts__title:before {
+        width: 268px;
+    }
+}
+
+.contacts__messangers {
+    width: 320px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 700px) {
+    .contacts__messangers {
+        width: 50%;
+        float: left;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .contacts__messangers {
+        width: 45%;
+        float: right;
+        margin-top: 0;
+    }
+}
+
+.contacts__label {
+    display: block;
+    color: #ffffff;
+    font-family: "OpenSans-Regular", serif;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .contacts__label {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+}
+
+.contacts__label:before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.contacts__label--inline {
+    display: inline-block;
+}
+
+.contacts__label--phone {
+    background: transparent url("../img/contacts_phone.png") 0 0 no-repeat;
+    background-size: contain;
+}
+
+.contacts__label--whatsapp {
+    background: transparent url("../img/contacts_whatsapp.png") 0 0 no-repeat;
+    background-size: contain;
+}
+
+.contacts__label--vk {
+    background: transparent url("../img/contacts_vk.png") 0 0 no-repeat;
+    background-size: contain;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .contacts__label--vk {
+        margin-top: 40px;
+    }
+}
+
+.contacts__label--in {
+    background: transparent url("../img/contacts_in.png") 0 0 no-repeat;
+    background-size: contain;
+}
+
+.contacts__content {
+    display: block;
+    color: #ffffff;
+    font-family: "OpenSans-Bold", serif;
+    font-size: 18px;
+    margin: 0 0 10px 45px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .contacts__content {
+        font-size: 30px;
+        margin: 0 0 40px 50px;
+    }
+}
+
+.contacts__content--phone {
+    margin-bottom: 0;
+}
+
+.contacts__content--link {
+    text-decoration: underline;
+}
+
+.contacts__content--link:hover {
+    color: #f8ae4c;
+    transition: all .175s ease-out;
+
+}
+
+.contacts__form-box {
+    width: 320px;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 700px) {
+    .contacts__form-box {
+        width: 50%;
+        float: right;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .contacts__form-box {
+        width: 50%;
+        float: right;
+        padding: 0;
+    }
+}
+
+.contacts__des {
+    font-family: "OpenSans-Regular", serif;
+    font-size: 13px;
+    max-width: 450px;
+    color: #ffffff;
+}
+
+@media only screen and (min-width: 1024px) {
+    .contacts__des {
+        font-size: 18px;
+    }
+}
+
+.contacts__form {
+    background-color: rgba(0,0,0, .35);
+    width: 100%;
+    /*height: 345px;*/
+    padding: 30px 15px 25px 15px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 1024px) {
+    .contacts__form {
+        width: 385px;
+        padding: 55px 15px 25px 15px;
+    }
+}
+
+.contacts__form-label {
+    display: block;
+    color: #ffffff;
+    font-family: "OpenSans-Light", serif;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+@media  only screen and (min-width: 1024px) {
+    .contacts__form-label {
+        font-size: 18px;
+    }
+}
+
+.contacts__form-label--textarea {
+    margin-bottom: -30px;
+    padding-top: 10px;
+}
+
+@media  only screen and (min-width: 1024px) {
+    .contacts__form-label--textarea {
+        padding-top: 30px;
+    }
+}
+
+.contacts__form-input {
+    display: block;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-family: "OpenSans-Regular", serif;
+    font-size: 14px;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 1024px) {
+    .contacts__form-input {
+        margin-bottom: 30px;
+    }
+}
+
+.contacts__form-textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    resize: none;
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    overflow-y: auto;
+    white-space: pre-wrap;
+}
+
+/*@media  only screen and (min-width: 1024px) {*/
+/*    .contacts__form-textarea {*/
+/*        width: 310px;*/
+/*    }*/
+/*}*/
+
+.contacts__form-btn {
+    display: block;
+    width: 180px;
+    height: 40px;
+    background-color: #f8ae4c;
+    color: #360501;
+    font-family: "OpenSans-Bold", serif;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    margin: 20px auto 0;
+}
+
+@media only screen and (min-width: 1024px) {
+    .contacts__form-btn {
+        width: 225px;
+        height: 60px;
+        font-size: 18px;
+    }
+}
+
+.contacts__form-btn:hover {
+    cursor: pointer;
+    color: #ffffff;
+    transition: all 0.25s ease-out;
+}
+
+.contacts__gradient {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    left: 0;
+}
+
+.contacts__gradient--dark {
+    background: linear-gradient(to bottom, transparent, #1b1b1b);
+    bottom: 0;
+}
+
+.contacts__gradient--orange {
+    background: linear-gradient(to bottom, #f8ae4c 1%, transparent);
+    top: 0;
+    height: 200px;
+}
+
